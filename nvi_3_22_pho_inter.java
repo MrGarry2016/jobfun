@@ -52,3 +52,7 @@ Set<E>:
 There is not a clear advantage of using synchronized method over block. Perhaps the only one ( but I wouldn't call it advantage ) is you don't need to include the object reference this.
 Blocks do have advantages over methods, most of all in flexibility because you can use other object as lock whereas syncing the method would lock the complete class.
 
+10. What is data binding?
+Data binding is a general technique that binds data sources from the provider and consumer together and synchronizes them.
+Data-binding in Angular apps is the automatic synchronization of data between the model and view components
+
